@@ -12,7 +12,7 @@ There will be 25017087 people after 12 days
 """
 population = float( input("Enter The  Population: "))
 rgrowth = float( input("Enter The Rate of Growth: "))
-time = float( input("Enter The Number of Days: "))
+time = int( input("Enter The Number of Days: "))
 fpop = population*(1+ (rgrowth/100))**(time / 365)
 fpop = round(fpop)
 print(f"There will be {fpop} people after {time} days")
