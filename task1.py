@@ -21,5 +21,4 @@ time = float( input("Enter The Amount of Days: "))
 interest = principle * rate * time / 365
 interest = math.floor(interest)
 interest = interest / 100
-interest = format(interest, ".2f")
 print(f"You earned ${interest} interest.")
